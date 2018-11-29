@@ -1,3 +1,20 @@
+redis (5:4.0.9-1ubuntu0.1) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: Memory corruption
+    - debian/patches/CVE-2018-11218.patch: fix in
+      deps/lua/src/lua_cmsgpack.c.
+    - CVE-2018-11218
+  * SECURITY UPDATE: Integer Overflow
+    - debian/patches/CVE-2018-11219-*.patch: fix in
+      deps/lua/src/lua_struct.c.
+    - CVE-2018-11219
+  * SECURITY UPDATE: Buffer overflow in the redis-cli
+    - debian/patches/CVE-2018-12326.patch: fix in
+      redis-cli.c.
+    - CVE-2018-12326
+
+ -- Julian Andres Klode <juliank@ubuntu.com>  Thu, 29 Nov 2018 11:37:34 +0100
+
 redis (5:4.0.9-1) unstable; urgency=medium
 
   * New upstream release.
