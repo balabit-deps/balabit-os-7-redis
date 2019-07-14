@@ -1,3 +1,11 @@
+redis (5:4.0.9-1ubuntu0.2) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: heap buffer overflows in Hyperloglog (Closes: #1836496)
+    - debian/patches/CVE-2019-10192.patch: Fix hyperloglog corruption
+    - CVE-2019-10192
+
+ -- Julian Andres Klode <juliank@ubuntu.com>  Sun, 14 Jul 2019 21:20:08 +0200
+
 redis (5:4.0.9-1ubuntu0.1) bionic-security; urgency=medium
 
   * SECURITY UPDATE: Memory corruption

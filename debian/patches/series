@@ -10,3 +10,4 @@ debian-packaging/0007-Set-Debian-configuration-defaults.patch
 CVE-2018-11218.patch
 CVE-2018-11219.patch
 CVE-2018-12326.patch
+0012-CVE-2019-10192.patch
